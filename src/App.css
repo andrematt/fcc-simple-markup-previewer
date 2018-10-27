@@ -1,0 +1,170 @@
+@import url("https://fonts.googleapis.com/css?family=Russo+One");
+.App {
+  color: black;
+  background-color: #357853;
+}
+
+input[type=text]:focus {
+  border: 3px solid #555;
+}
+
+button {
+  border-radius: 4px;
+  text-shadow: 3px 2px 1px #9daef5;
+  font-size: 16px;
+}
+
+blockquote {
+  border-left: 3px solid #224B4B;
+  font-size: 1.2em;
+  color: #224B4B;
+  padding-left: 10px;
+  margin-left: 40px;
+}
+
+.navbar {
+  text-align: center;
+  box-shadow: 3px 3px 10px 3px #404040;
+  font-family: Russo One;
+  border: solid;
+  border-width: 1px;
+  border-color: lightgray;
+  background-color: #483a7a;
+}
+
+.navbar-left {
+  margin-top: 32px;
+  margin-bottom: 28px;
+  font-size: 26px;
+}
+.navbar-left a:link, .navbar-left a:visited {
+  color: black;
+}
+
+.navbar-center {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+.navbar-center .main-title {
+  text-shadow: 3px 2px 1px #9daef5;
+  margin-top: 20px;
+  margin-bottom: 0px;
+}
+.navbar-center .subtitle {
+  margin-top: 0px;
+  color: red;
+  font-size: 16px;
+  margin-bottom: 2px;
+}
+.navbar-center .subtitle a:link, .navbar-center .subtitle a:visited {
+  text-decoration: none;
+  color: red;
+}
+
+.navbar-right {
+  margin-top: 32px;
+  margin-bottom: 28px;
+}
+.navbar-right a:link, .navbar-right a:visited {
+  text-decoration: none;
+  color: #483a7a;
+}
+
+@media screen and (max-width: 992px) {
+  .navbar-left {
+    float: none !important;
+    margin-top: 2px;
+    margin-bottom: 8px;
+  }
+
+  .navbar-center {
+    font-size: 30px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+  }
+
+  .navbar-right {
+    float: none !important;
+    margin-bottom: 8px;
+  }
+}
+.editor-container {
+  box-shadow: 3px 3px 10px 3px #404040;
+  margin-top: 35px;
+}
+
+.editor-bar {
+  padding-left: 5px;
+  box-shadow: 3px 3px 10px 3px #404040;
+  font-family: Russo One;
+  border: solid;
+  border-width: 1px;
+  border-color: lightgray;
+  height: 20px;
+  background-color: #483a7a;
+}
+
+#editor {
+  font-size: 14px;
+  font-family: "Courier New", Courier, monospace;
+  box-shadow: 3px 3px 10px 3px #404040;
+  padding: 4px 4px 4px 4px;
+  width: 100%;
+  height: 200px;
+  outline: none;
+  background-color: #5085a8;
+  padding-bottom: 0px;
+  border-bottom: 0px;
+  /* box sizing border-box:     The width and height properties include the padding and border, but not the margin. This is the box model used by Internet Explorer when the document is in Quirks mode.; */
+  -webkit-box-sizing: border-box;
+  /* Safari/Chrome, other WebKit */
+  -moz-box-sizing: border-box;
+  /* Firefox, other Gecko */
+  box-sizing: border-box;
+  /* Opera/IE 8+ */
+}
+
+.preview-container {
+  margin-top: 35px;
+  box-shadow: 3px 3px 10px 3px #404040;
+}
+
+.preview-bar {
+  padding-left: 5px;
+  box-shadow: 3px 3px 10px 3px #404040;
+  font-family: Russo One;
+  border: solid;
+  border-width: 1px;
+  border-color: lightgray;
+  height: 20px;
+  background-color: #483a7a;
+}
+
+#preview {
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  box-shadow: 3px 3px 10px 3px #404040;
+  padding: 4px 4px 4px 4px;
+  margin-bottom: 20px;
+  border: solid;
+  border-width: 1px;
+  border-color: lightgray;
+  background-color: #5085a8;
+}
+#preview code {
+  font-family: "Courier New", Courier, monospace;
+  padding: 1px 4px 2px 4px;
+}
+#preview a:link, #preview a:visited {
+  color: blue;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+td, th {
+  border: 2px solid;
+}
+
+/*# sourceMappingURL=App.css.map */
